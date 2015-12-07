@@ -20,4 +20,6 @@ dependencies:
 
 test:
   override:
-    - yes | mix coveralls.post -s $CIRCLE_SHA1
+    - mix coveralls.post -s $CIRCLE_SHA1 -b $CIRCLE_BRANCH -m "$COMMIT_MSG":
+        environment:
+          COMMIT_MSG: $(git show -s --format=%B $CIRCLE_SHA1)
