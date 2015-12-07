@@ -18,6 +18,8 @@ end
 
 Run `mix deps.get`.
 
+Read the latest documentation at <https://hexdocs.pm/range_extras/>.
+
 ## Set operations
 
 - `union/2`
