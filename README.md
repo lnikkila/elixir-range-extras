@@ -1,5 +1,9 @@
 # RangeExtras
 
+[![Hex.pm][hexpm-badge]][hexpm]
+[![Build status][circleci-badge]][circleci]
+[![Test coverage][coveralls-badge]][coveralls]
+
 **Elixir range utilities: constant-time random sampling and set operations.**
 
 ## Installation
@@ -79,3 +83,12 @@ generator like you have to currently do with `Enum.random/1` that uses
 > LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 > OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 > PERFORMANCE OF THIS SOFTWARE.
+
+[hexpm]: https://hex.pm/packages/range_extras
+[hexpm-badge]: https://img.shields.io/hexpm/v/range_extras.svg
+
+[circleci]: https://circleci.com/gh/lnikkila/elixir-range-extras
+[circleci-badge]: https://img.shields.io/circleci/project/lnikkila/elixir-range-extras.svg
+
+[coveralls]: https://coveralls.io/github/lnikkila/elixir-range-extras
+[coveralls-badge]: https://img.shields.io/coveralls/lnikkila/elixir-range-extras.svg
