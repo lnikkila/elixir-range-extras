@@ -20,5 +20,4 @@ dependencies:
 
 test:
   override:
-    - yes | mix coveralls
-    - yes | mix coveralls.post
+    - yes | mix coveralls.post -s $CIRCLE_SHA1
