@@ -8,6 +8,8 @@
 
 ## Installation
 
+First, please make sure that you’re running Erlang/OTP 18.0 or newer.
+
 Add `range_extras` to your list of dependencies in `mix.exs`:
 
 ```elixir
